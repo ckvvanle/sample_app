@@ -9,12 +9,12 @@ gem "rails", "~> 5.2.0"
 
 gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.1.0", require: false
-gem "bootstrap-sass", "3.3.7"
+gem "bootstrap-sass"
 gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "duktape"
 gem "jbuilder", "~> 2.5"
-gem "jquery-rails", "~> 4.3", ">= 4.3.3"
+gem "jquery-rails"
 gem "puma", "~> 3.11"
 gem "sass-rails", "~> 5.0"
 

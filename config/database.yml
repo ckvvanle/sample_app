@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: postgresql
+  adapter: sqlite3
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   encoding: unicode
 
@@ -23,3 +23,5 @@ test:
 production:
   <<: *default
   database: myapp_sample
+  adapter: postgresql
+

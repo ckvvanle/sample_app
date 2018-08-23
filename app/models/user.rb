@@ -77,8 +77,6 @@ class User < ApplicationRecord
   end
 
   def feed
-    following_ids = "SELECT followed_id FROM relationships
-                     WHERE  follower_id = :user_id"
     Micropost.by_follow following_ids, id
   end
 
